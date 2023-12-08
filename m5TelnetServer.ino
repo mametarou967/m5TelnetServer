@@ -1,7 +1,6 @@
+#include "WifiConfig.h"
 #include <WiFi.h>
 
-const char* ssid     = "";
-const char* password = "";
 const int port = 23;
 
 WiFiServer server(port);
